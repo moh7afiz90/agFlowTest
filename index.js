@@ -1,9 +1,11 @@
+// Completion time: 1hr 40 mins
+
 // RulseSet
 var RuleSet = {
   NewRuleSet: function() {
-
+    return
   },
-  AddDep: function( a,b ){
+  AddDep: function( a , b ){
     if (a == b && b == a) {
       return 'B is selected beacuse A is selected'
     } else {
